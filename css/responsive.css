@@ -1,0 +1,46 @@
+@media (max-width: 576px) and (min-width: 260px)
+ {
+    .hero{
+        padding: 50px 18px;
+    }
+    .hero> :nth-child(1){
+        font-size: 4.1vmax;
+        font-weight: 700;
+    }
+    nav img{
+        width: 10vmax;
+    }
+    .main{
+        height: 85vh;
+        justify-content: flex-start !important;
+    }
+    .main input {
+        padding: 13px 100px 13px 16px;
+        font-size: 1.5vmax;
+    }
+    .btn-red {
+        padding: 13px 19px;
+        font-size: 1.5vmax;
+    }
+    nav img {
+        width: 16vmax;
+    }
+    .btn-red-sm{
+        font-size: 1.9vmax;
+        padding: 8px 16px;
+    }
+    .hero> :nth-child(2), .hero> :nth-child(3){
+        font-size: 3.1vmax;
+    }
+    .navbar {
+        padding: 10px 0px 40px 0px !important; 
+    }
+    .hero{
+        justify-content: flex-start !important;
+    }
+    .navbar img{
+        width: 6.25rem !important;
+
+    }
+
+}
